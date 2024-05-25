@@ -1,0 +1,177 @@
+.body {
+zoom: 80%
+}
+.travel {
+  position: relative;
+  letter-spacing: -0.02em;
+}
+.travel {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 2;
+}
+.div8 {
+  flex: 1;
+  line-height: 100%;
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 5;
+  font-size: 25px;
+  line-height: 37px;
+}
+.btn {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 23px;
+  border: 1px solid #e3e6eb;
+  box-sizing: border-box;
+  width: 426px;
+}
+.p10 {
+  line-height: 80%;
+}
+.p11 {
+  line-height: 80%;
+}
+.p12 {
+  line-height: 80%;
+}
+.p9 {
+  margin-block-start: 0;
+  margin-block-end: 37px;
+  line-height: 80%;
+}
+.p13 {
+  margin: 0;
+  line-height: 80%;
+}
+.div9 {
+  position: absolute;
+  top: 95px;
+  left: 16px;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  display: inline-block;
+  width: 445px;
+  z-index: 9;
+}
+.btn-parent {
+  top: 518px;
+  left: 0;
+  width: 461px;
+  height: 372px;
+}
+.btn-parent,
+.div10,
+.div11 {
+  position: absolute;
+}
+.div10 {
+  top: 542px;
+  left: 0;
+  border-radius: 9px;
+  background-color: #ffe5ea;
+  width: 161px;
+  height: 51px;
+}
+.div11 {
+  top: 549px;
+  left: 13px;
+  letter-spacing: -0.02em;
+  line-height: 38px;
+  font-weight: 500;
+  display: inline-block;
+  width: 181px;
+  z-index: 10;
+}
+.benefit-headers1,
+.frame5 {
+  position: absolute;
+  overflow: hidden;
+}
+.frame5 {
+  top: 0;
+  left: 16px;
+  width: 161px;
+  height: 593px;
+  z-index: 9;
+  color: #ff2c55;
+}
+.benefit-headers1 {
+  height: 890px;
+  width: 426px;
+  margin: 0 !important;
+  right: -126px;
+  bottom: -466px;
+  flex-shrink: 0;
+  z-index: 8;
+}
+.benefit-description,
+.promo-benefits {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.benefit-description {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.promo-benefits {
+  align-self: stretch;
+  padding: 0 77px;
+  box-sizing: border-box;
+  font-size: 25px;
+  color: #000;
+}
+.promo-benefits,
+.welcome-message,
+.welcome-message-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.welcome-message {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 34px;
+}
+.welcome-message-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 49px 0 54px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 35px;
+  color: #ff2c55;
+  font-family: "Graphik LCG";
+}
+@media screen and (max-width: 750px) {
+  .travel {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .travel {
+    font-size: 21px;
+    line-height: 30px;
+  }
+  .div11,
+  .div8,
+  .div9 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

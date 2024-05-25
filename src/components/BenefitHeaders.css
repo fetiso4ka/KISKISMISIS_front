@@ -1,0 +1,106 @@
+.header-divider {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 23px;
+  border: 1px solid #e3e6eb;
+  box-sizing: border-box;
+  width: 426px;
+}
+.p3,
+.p4,
+.p5,
+.p6,
+.p7 {
+  margin-block-start: 0;
+  margin-block-end: 37px;
+}
+.p8 {
+  margin: 0;
+}
+.div6 {
+  position: absolute;
+  top: 95px;
+  left: 16px;
+  letter-spacing: -0.02em;
+  line-height: 80%;
+  display: inline-block;
+  width: 445px;
+  z-index: 7;
+}
+.benefit-header-names {
+  position: absolute;
+  top: 518px;
+  left: 0;
+  width: 461px;
+  height: 372px;
+}
+.recommendation-benefit-child {
+  height: 51px;
+  width: 200px;
+  position: relative;
+  border-radius: 9px;
+  background-color: #ffe5ea;
+  display: none;
+}
+.div7 {
+  position: relative;
+  font-size: 25px;
+  letter-spacing: -0.02em;
+  line-height: 38px;
+  font-weight: 500;
+  font-family: "Graphik LCG-Medium";
+  color: #ff2c55;
+  text-align: left;
+  z-index: 8;
+}
+.benefit-options,
+.recommendation-benefit {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.recommendation-benefit {
+  cursor: pointer;
+  border: 0;
+  padding: 7px 6px 6px 13px;
+  background-color: #ffe5ea;
+  border-radius: 9px;
+  align-items: flex-start;
+}
+.recommendation-benefit:hover {
+  background-color: #e6ccd1;
+}
+.benefit-options {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  height: 593px;
+  overflow: hidden;
+  align-items: flex-end;
+  z-index: 7;
+}
+.benefit-headers {
+  height: 890px;
+  width: 426px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -466px;
+  left: 316px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 6;
+  text-align: left;
+  font-size: 25px;
+  color: #000;
+  font-family: "Graphik LCG";
+}
+@media screen and (max-width: 450px) {
+  .div6,
+  .div7 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

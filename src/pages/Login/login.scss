@@ -1,0 +1,166 @@
+main{
+  background-color: #F2F3F7;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap:33px;
+  align-items: center;
+  .content{
+    width: 71.88vw;
+    background-color: #FFFFFF;
+    border-radius: 22px;
+    .head_form{
+        display: flex;
+        flex-direction: row;
+        padding-top: 26px;
+        padding-bottom: 26px;
+        font-family: Graphik LCG-Medium;
+        align-items: center;
+        gap:10px;
+        padding-left: 3.54vw;
+        font-size: 25px;
+        color: #777;
+        .arrow{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .mainform{
+        width: 100%;
+        background-image:url('../../static/backlogin.png');
+        background-size: cover;
+        height: 57.71vw;
+        font-family: Graphik LCG-Regular;
+        .forma_wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            left: 15vw;
+            top:15vh;
+            background-color: #FFFFFF;
+            width: 576px;
+            height: 632px;
+            padding-top: 94px;
+            border-radius: 23px;
+            .variants{
+                display: flex;
+                flex-direction: row;
+                gap:183px;
+                font-size: 25px;
+                border-bottom: 2px solid #E3E6EB;
+                padding-bottom: 13px;
+            }
+        }
+    }
+  }
+}
+.modal {
+    &__wrap{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 15vw;
+    top:15vh;
+    background-color: #FFFFFF;
+    width: 576px;
+    height: auto;
+    padding-top: 94px;
+    border-radius: 23px;
+
+    &__title{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 25px;
+        border-bottom: 2px solid #E3E6EB;
+        padding-bottom: 13px;
+    }
+
+    &__inputs{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+        &_i{
+            width: 461px;
+            height: 65px;
+            flex-shrink: 0;
+            border-radius: 8.4px;
+            border: 0.6px solid #E3E6EB;
+            background: #FFF;
+            input{
+                height: 100%;
+                padding-left: 18px;
+                color: #5E5E5E;
+                font-family: Montserrat;
+                font-size: 21px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+
+    &__descr{
+        max-width: 530px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    &__button {
+        margin-top: 27px;
+        width: 461px;
+        height: 55px;
+
+        flex-shrink: 0;
+        border-radius: 12px;
+        border: 1px solid #E3E6EB;
+        background: #FF0032;
+        color: #FFF;
+        font-family: Graphik LCG-Medium;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150% /* 37.5px */;
+        letter-spacing: -0.575px;
+        margin-bottom: 24px;
+    }
+    &__mts{
+        align-self: center;
+        width: 326px;
+        height: 60px;
+        border-radius: 31px;
+        border: 1px solid #E3E6EB;
+        background: #FFF;
+        margin-bottom: 43px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 7px 14px;
+        color: #000;
+        font-family: Graphik LCG-Light;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150% /* 37.5px */;
+        letter-spacing: -0.575px;
+       
+        .mts_ph{
+            width: 76.765px;
+            height: 45px;
+           
+            flex-shrink: 0;
+            border-radius: 13px;
+            background: url('/mts_id.png') lightgray 50% / cover no-repeat;
+           
+        }
+    }
+
+}
