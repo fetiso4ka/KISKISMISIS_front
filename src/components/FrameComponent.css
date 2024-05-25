@@ -37,12 +37,15 @@ zoom: 80%
 }
 .p10 {
   line-height: 80%;
+  margin-top: 20px;
 }
 .p11 {
   line-height: 80%;
+  margin-top: 40px;
 }
 .p12 {
   line-height: 80%;
+  margin-top: 35px;
 }
 .p9 {
   margin-block-start: 0;
@@ -52,6 +55,7 @@ zoom: 80%
 .p13 {
   margin: 0;
   line-height: 80%;
+  margin-top: 35px;
 }
 .div9 {
   position: absolute;

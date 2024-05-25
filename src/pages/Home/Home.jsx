@@ -11,7 +11,7 @@ const Home = () => {
       <div className="frame">
         <div className="frame-child" />
       </div>
-      <div className="div1">Войти</div>
+      <button className="div1">Войти</button> onClick={()=>navigate("/Calendar")}
       <div className="frame1">
         <img className="image-11-icon" alt="" src="/image-11@2x.png"/>
       </div>
@@ -19,12 +19,12 @@ const Home = () => {
         <section className="building" />
         <section className="frame2">
           <footer className="frame-item" />
-          <img className="frame-icon" alt="" src="/frame@2x.png" />
+          <img className="frame-icon1" alt="" src="/frame@2x.png" />
         </section>
       </main>
       <header className="child" >
         <div className="image-icon-container">
-            <img src='/image-6@2x.png' alt="logo"/>
+            <img src='/logo.png' alt="logo"/>
         </div>
       </header>
       <div className="frame3">
@@ -99,7 +99,7 @@ const Home = () => {
                   <div className="password-field-child" />
                   <input className="input1" placeholder="Пароль" type="text" />
                 </div>
-                <button className="login">Войти</button>
+                <button onClick={()=>navigate("/Calendar")}><div className="login">Войти</div></button> 
               </div>
             </div>
           </div>
@@ -107,7 +107,9 @@ const Home = () => {
         </div>
       </div>
     </div>
+    
   );
 };
+
 
 export default Home;

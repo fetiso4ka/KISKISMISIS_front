@@ -1,3 +1,6 @@
+.promo {
+  color: #11212C;
+}
 .login {
   background-color:#ff0032;
   color: #fff;
@@ -23,7 +26,6 @@
   width: 325px;
   height: 55px;
 }
-.div1,
 .frame {
   position: absolute;
   display: none;
@@ -36,12 +38,13 @@
   overflow: hidden;
 }
 .div1 {
-  top: 604px;
+  top: 550px;
   left: 182px;
   letter-spacing: -0.02em;
   line-height: 38px;
   font-weight: 500;
   width: 87px;
+  margin-top: 100px;
 }
 .frame1,
 .image-11-icon {
@@ -79,17 +82,26 @@
   border: 1px solid #e3e6eb;
   box-sizing: border-box;
   max-width: 100%;
+  
 }
-.frame-icon {
+.frame-icon1 {
   height: 100%;
   width: 100%;
-  margin: 0 !important;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 520px;
   max-height: 100%;
-  object-fit: cover;
   z-index: 12;
+}
+.frame-icon {
+  height: 3%;
+  width: 2%;
+  right: 0;
+  bottom: 0;
+  left: 1650px;
+  max-height: 20%;
+  z-index: 1;
+  margin-top: 170px;
 }
 .frame-icon,
 .frame2,
@@ -240,13 +252,14 @@
   max-width: 100%;
 }
 .p {
-  line-height: 40%;
-  margin-top: 10px;
+  line-height: 50%;
+  margin-top: 15px;
 }
 .p1 {
   margin-block-start: 0;
   margin-block-end: 37px;
   line-height: 40%;
+  margin-top: 20px;
 }
 .p2 {
   margin: 0;

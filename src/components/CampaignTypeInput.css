@@ -1,0 +1,136 @@
+.div9 {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 38px;
+    display: inline-block;
+    min-width: 87px;
+    z-index: 1;
+  }
+  .campaign-duration-child {
+    height: 82px;
+    width: 185px;
+    position: relative;
+    border-radius: 23px;
+    border: 1px solid #e3e6eb;
+    box-sizing: border-box;
+    display: none;
+  }
+  .frame-child1,
+  .line-icon {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 12px;
+    height: 11px;
+    object-fit: contain;
+  }
+  .frame-child1 {
+    top: 0;
+    left: 10.4px;
+    width: 12.8px;
+    height: 11.2px;
+    z-index: 1;
+  }
+  .line-parent {
+    width: 23.2px;
+    height: 13px;
+    position: relative;
+    z-index: 3;
+  }
+  .campaign-duration-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 14px 0 0;
+  }
+  .campaign-duration,
+  .rectangle-div {
+    border-radius: 23px;
+    border: 1px solid #e3e6eb;
+  }
+  .campaign-duration {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px 17px 20px 37px;
+    gap: 19px;
+    z-index: 2;
+  }
+  .rectangle-div {
+    height: 82px;
+    width: 110px;
+    position: relative;
+    box-sizing: border-box;
+    display: none;
+  }
+  .div10 {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 38px;
+    display: inline-block;
+    min-width: 11px;
+    z-index: 2;
+  }
+  .frame-child2,
+  .frame-child3 {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 12px;
+    height: 11px;
+    object-fit: contain;
+  }
+  .frame-child3 {
+    top: 0;
+    left: 10.4px;
+    width: 12.8px;
+    height: 11.2px;
+    z-index: 1;
+  }
+  .line-group {
+    width: 23.2px;
+    height: 13px;
+    position: relative;
+    z-index: 2;
+  }
+  .campaign-type-input,
+  .frame-div,
+  .frame-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-wrapper {
+    flex-direction: column;
+    padding: 14px 0 0;
+  }
+  .campaign-type-input,
+  .frame-div {
+    flex-direction: row;
+  }
+  .frame-div {
+    border-radius: 23px;
+    border: 1px solid #e3e6eb;
+    padding: 20px 19px 20px 35px;
+    gap: 20px;
+    z-index: 1;
+  }
+  .campaign-type-input {
+    gap: 6px;
+    text-align: left;
+    font-size: 25px;
+    color: #000;
+    font-family: "Graphik LCG";
+  }
+  @media screen and (max-width: 450px) {
+    .div10,
+    .div9 {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    .campaign-type-input {
+      flex-wrap: wrap;
+    }
+  }

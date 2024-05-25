@@ -1,13 +1,13 @@
 import React from "react";
 import { useState } from "react";
-import "./login.scss";
+import './login.scss'
 import Header from "../../components/Header/Header";
-import Auth from "./Auth";
-import Register from "./Register";
-const Login = () => {
+import Cal from "../../components/Cal";
+const Calendar = () => {
   const [isReg, setIsReg] = useState(true);
   const changeMode = () => {
     setIsReg(!isReg);
+    
 };
   return (
     <main>
@@ -16,15 +16,20 @@ const Login = () => {
         <div className="head_form">
           <div className="arrow">
             <img src="/Arrow.svg" alt="arrow"/>
+          
           </div>
-          <span><a href="http://localhost:5173">Вернуться на главную</a></span>
+          
+          <span> <a href="http://localhost:5173">Выйти из календаря</a></span><button href="/Settings"><img className="frame-icon" alt="" src="/settings.png" /></button>
+          
+         
         </div>
-        <div className="mainform">
-          {isReg ? <Auth changeMode={changeMode} /> : <Register changeMode={changeMode} />}   
-        </div>
+
       </div>
+      <Cal />
+      
     </main>
+    
   );
 };
 
-export default Login;
+export default Calendar;
